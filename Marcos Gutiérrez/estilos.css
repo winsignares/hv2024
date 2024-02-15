@@ -1,0 +1,48 @@
+ h1 {
+            text-align: center;
+        }
+        img{
+             display: block;
+            margin: 0 auto;
+        }
+
+        .rectangle {
+            width: 600px;
+            height: 28px;
+            background-color: gray;
+            margin: 25px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+     
+        .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .box {
+    flex-basis: 50%;
+    margin: 0 5px;
+    box-sizing: border-box;
+    
+  }
+  
+  .box-izquierda {
+    text-align: left;
+    padding-left: 30%;
+    box-sizing: border-box;
+  }
+  
+  .box-derecha {
+    text-align: left;
+    padding-left: 30%;
+    box-sizing: border-box;
+  }
+
+
+
