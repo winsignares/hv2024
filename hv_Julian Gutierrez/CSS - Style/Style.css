@@ -1,0 +1,67 @@
+/* estilos generales */
+body {
+  font-family: Arial;
+  margin: 20px;
+  }
+
+  .imagen{
+    
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* estilos por sección */
+  header {
+    text-align: center;
+  }
+  
+  .resumen {
+    border: 2px solid #080404;
+    padding: 10px;
+  }
+  
+  .experiencia, .educacion, .habilidades {
+    margin-top: 20px;
+  }
+  
+  .experiencia h3, .educacion h3 {
+    margin-top: 0;
+  }
+  
+  .experiencia ul, .educacion ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experiencia li, .educacion li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #0a0808;
+  }
+  
+  .habilidades ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+  }
+  
+  .habilidades li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #060505;
+  }
+  
+  /* footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
