@@ -90,6 +90,9 @@ grid-row-gap: 0px;
 	height: 100%;
     width: 100%;
 	position: absolute;
+	border-radius: 107px;
+    border: 1px solid white;
+
 }
 
  hr {
@@ -97,7 +100,7 @@ grid-row-gap: 0px;
        border: 0;
 
        height: 100px;
-       width: 100%;
+       width: 97%;
        height: 1px; background: white;
     }
 
@@ -107,7 +110,7 @@ grid-row-gap: 0px;
        border: 0;
 
        height: 100px;
-       width: 100%;
+       width: 97%;
        height: 1px; background: black;
     
     }
@@ -127,4 +130,21 @@ li{
 #perfilText{
 	padding: 20px;
 
+}
+
+.ListaExperiencia{
+	font-family:  Arial, sans-serif;
+	color:black;
+}
+
+#title-Experiencia{
+	font-size:20px;
+	    margin-bottom: 0px;
+    margin-top: 29px;
+}
+
+#subtitle-Experiencia{
+	margin-top: 0px;
+	font-family: inherit;
+	font-size:12px;
 }
