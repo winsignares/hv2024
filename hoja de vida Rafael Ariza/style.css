@@ -1,0 +1,83 @@
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6dada;
+}
+
+
+header {
+  text-align: center;
+  background-color: #09dbf793;
+  color: #0a0101;
+  padding: 50px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 5px 0;
+  color: #070101;
+}
+h3 {
+  margin: 5px 0;
+  color: #291f1f;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+}
+
+section {
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #0e0101;
+}
+
+.contacto, .habilidades, .educacion, .experiencia {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body, h1, h2 {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 30px 10px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+
+}
